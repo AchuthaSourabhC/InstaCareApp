@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:columnCount="3" >
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="1"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Patient: "
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="1"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Paul Graham"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tphonee"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="2"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Contact: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/phnotv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="2"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="+91-3133-731-737"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tplace"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="3"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="PLace: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/placetv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="3"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="HSR Layout"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tspecial"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="4"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Speciality"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/specialtv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="4"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Dentist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tdaree"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="5"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Time:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/datetv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="5"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="15/12/2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    <TextView
+        android:id="@+id/ttime"
+        android:layout_column="0"
+        android:layout_gravity="top|right"
+        android:layout_margin="5dp"
+        android:layout_row="6"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="Time:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/timetv"
+        android:layout_column="1"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:layout_row="6"
+        android:background="#f3f3f3"
+        android:padding="5dp"
+        android:text="11:30 AM"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/bookbt"
+        android:layout_marginTop="10dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="5dp"
+        android:layout_row="0"
+        android:background="#19D175"
+        android:text="Book"
+        android:textColor="#fff"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/cancelbt"
+        android:layout_marginTop="10dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="5dp"
+        android:layout_row="0"
+        android:background="#EB5833"
+        android:text="Cancel"
+        android:textColor="#fff"
+        android:width="150dp" />
+
+
+
+</GridLayout>

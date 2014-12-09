@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:background="#e3e3e3"
+    android:columnCount="1"
+    android:padding="5dp"
+    android:rowOrderPreserved="true" >
+
+    <AutoCompleteTextView
+        android:id="@+id/specialtv"
+        android:padding="10dp"
+        android:background="#f3f3f3"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:ems="10"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:hint="Specialty eg. Dentist" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/localtv"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:background="#f3f3f3"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="3"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Locality eg. HSR Layout" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="top|left|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f3f3f3"
+        android:columnCount="2"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/timebt"
+            android:layout_column="1"
+            android:layout_gravity="top|right|center"
+            android:text="Time"
+            android:width="150dp" />
+
+        <Button
+            android:id="@+id/datebt"
+            android:layout_column="0"
+            android:layout_gravity="top|right|center"
+            android:text="Date"
+            android:width="120dp" />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_column="0"
+            android:layout_gravity="top|center"
+            android:layout_row="1"
+            android:text="Date: 15/12/2014"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_column="1"
+            android:layout_gravity="top|center"
+            android:layout_row="1"
+            android:text="Time: 11:30 AM"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="top|left|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f3f3f3"
+        android:padding="5dp" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup0"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_rowSpan="10"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/shedulerb"
+                android:layout_gravity="top|right|center"
+                android:checked="true"
+                android:text="Schedule"
+                android:width="130dp" />
+
+            <RadioButton
+                android:id="@+id/instantrb"
+                android:layout_gravity="top|left|center"
+                android:text="Instant Care"
+                android:width="130dp" />
+        </RadioGroup>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="top|left|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f3f3f3"
+        android:columnCount="2"
+        android:padding="10dp" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Bangalore" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chennai" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_column="1"
+            android:layout_gravity="right|center_vertical" >
+
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kolkata" />
+
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai" />
+
+            <RadioButton
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hyderabad" />
+        </RadioGroup>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/bookbt"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:background="#19D175"
+        android:textColor="#fff"
+        android:text="Book Appiontment"
+        android:shadowRadius="5"
+        android:shadowColor="#3e3e3e"
+        android:width="150dp" />
+
+</GridLayout>
